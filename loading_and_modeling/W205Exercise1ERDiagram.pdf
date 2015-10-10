@@ -1,34 +1,11 @@
---2015-10-10 07:01:26--  https://drive.google.com/a/berkeley.edu/file/d/0B0wSBJIV_UxNc0JfRXpmRE5Cb0U/view?usp=sharing
-Resolving drive.google.com... 74.125.228.229, 74.125.228.230, 74.125.228.231, ...
-Connecting to drive.google.com|74.125.228.229|:443... connected.
-HTTP request sent, awaiting response... 302 Moved Temporarily
-Location: https://www.google.com/a/berkeley.edu/ServiceLogin?service=wise&passive=1209600&continue=https://drive.google.com/a/berkeley.edu/file/d/0B0wSBJIV_UxNc0JfRXpmRE5Cb0U/view?usp%3Dsharing&followup=https://drive.google.com/a/berkeley.edu/file/d/0B0wSBJIV_UxNc0JfRXpmRE5Cb0U/view?usp%3Dsharing [following]
---2015-10-10 07:01:26--  https://www.google.com/a/berkeley.edu/ServiceLogin?service=wise&passive=1209600&continue=https://drive.google.com/a/berkeley.edu/file/d/0B0wSBJIV_UxNc0JfRXpmRE5Cb0U/view?usp%3Dsharing&followup=https://drive.google.com/a/berkeley.edu/file/d/0B0wSBJIV_UxNc0JfRXpmRE5Cb0U/view?usp%3Dsharing
-Resolving www.google.com... 74.125.228.208, 74.125.228.209, 74.125.228.210, ...
-Connecting to www.google.com|74.125.228.208|:443... connected.
-HTTP request sent, awaiting response... 302 Moved Temporarily
-Location: https://shib.berkeley.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fVLLTgIxFN2b%2BA%2BT7pkHiY80zBjUGElQJzK4cFc6t0Ol09beDsjfWwaNuICkq9PT87i9o5uvVkVrcCiNzkkWpyQCzU0tdZOTefUwuCY3xfnZCFmrLB13fqlf4bMD9FF4qZH2FznpnKaGoUSqWQtIPaez8dOUDuOUWme84UaRaHKfE2mbFkRjJLcgVmKxaj4%2BWiGWVi2sZcKq1TKQIbDffmMNd7EmiB1MNHqmfYDS7GKQpeFU6RVNMzq8fCdR%2BeN0K%2FW%2BwalYiz0J6WNVlYPyZVb1AmtZg3sO7Jw0xjQKYm7anX3JEOU6wIIpBBKNEcH5EPDOaOxacDNwa8lh%2FjrNydJ7izRJNptN%2FCeTsGQBbgUKtjHUXcI4kqKfLe3ruYOhng7Pfs1JcVR%2BlBwoFz9fuGs2uS%2BNknwbjZUymzsHzIda3nWh1YNxLfPHzbM46xFZD0RPpZ1GC1wKCTWJkmLv%2Bn9XwgZ9Aw%3D%3D&RelayState=https%3A%2F%2Fwww.google.com%2Fa%2Fberkeley.edu%2FServiceLogin%3Fservice%3Dwise%26passive%3Dtrue%26continue%3Dhttps%253A%252F%252Fdrive.google.com%252Fa%252Fberkeley.edu%252Ffile%252Fd%252F0B0wSBJIV_UxNc0JfRXpmRE5Cb0U%252Fview%253Fusp%253Dsharing%26followup%3Dhttps%253A%252F%252Fdrive.google.com%252Fa%252Fberkeley.edu%252Ffile%252Fd%252F0B0wSBJIV_UxNc0JfRXpmRE5Cb0U%252Fview%253Fusp%253Dsharing [following]
---2015-10-10 07:01:26--  https://shib.berkeley.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fVLLTgIxFN2b%2BA%2BT7pkHiY80zBjUGElQJzK4cFc6t0Ol09beDsjfWwaNuICkq9PT87i9o5uvVkVrcCiNzkkWpyQCzU0tdZOTefUwuCY3xfnZCFmrLB13fqlf4bMD9FF4qZH2FznpnKaGoUSqWQtIPaez8dOUDuOUWme84UaRaHKfE2mbFkRjJLcgVmKxaj4%2BWiGWVi2sZcKq1TKQIbDffmMNd7EmiB1MNHqmfYDS7GKQpeFU6RVNMzq8fCdR%2BeN0K%2FW%2BwalYiz0J6WNVlYPyZVb1AmtZg3sO7Jw0xjQKYm7anX3JEOU6wIIpBBKNEcH5EPDOaOxacDNwa8lh%2FjrNydJ7izRJNptN%2FCeTsGQBbgUKtjHUXcI4kqKfLe3ruYOhng7Pfs1JcVR%2BlBwoFz9fuGs2uS%2BNknwbjZUymzsHzIda3nWh1YNxLfPHzbM46xFZD0RPpZ1GC1wKCTWJkmLv%2Bn9XwgZ9Aw%3D%3D&RelayState=https%3A%2F%2Fwww.google.com%2Fa%2Fberkeley.edu%2FServiceLogin%3Fservice%3Dwise%26passive%3Dtrue%26continue%3Dhttps%253A%252F%252Fdrive.google.com%252Fa%252Fberkeley.edu%252Ffile%252Fd%252F0B0wSBJIV_UxNc0JfRXpmRE5Cb0U%252Fview%253Fusp%253Dsharing%26followup%3Dhttps%253A%252F%252Fdrive.google.com%252Fa%252Fberkeley.edu%252Ffile%252Fd%252F0B0wSBJIV_UxNc0JfRXpmRE5Cb0U%252Fview%253Fusp%253Dsharing
-Resolving shib.berkeley.edu... 169.229.218.101
-Connecting to shib.berkeley.edu|169.229.218.101|:443... connected.
-HTTP request sent, awaiting response... 302 Moved Temporarily
-Location: https://shib.berkeley.edu:443/idp/AuthnEngine [following]
---2015-10-10 07:01:26--  https://shib.berkeley.edu/idp/AuthnEngine
-Reusing existing connection to shib.berkeley.edu:443.
-HTTP request sent, awaiting response... 302 Moved Temporarily
-Location: https://shib.berkeley.edu:443/idp/Authn/RemoteUser [following]
---2015-10-10 07:01:26--  https://shib.berkeley.edu/idp/Authn/RemoteUser
-Reusing existing connection to shib.berkeley.edu:443.
-HTTP request sent, awaiting response... 302 Moved Temporarily
-Location: https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fshib.berkeley.edu%2Fidp%2FAuthn%2FRemoteUser [following]
---2015-10-10 07:01:26--  https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fshib.berkeley.edu%2Fidp%2FAuthn%2FRemoteUser
-Resolving auth.berkeley.edu... 169.229.218.90
-Connecting to auth.berkeley.edu|169.229.218.90|:443... connected.
+--2015-10-10 07:06:33--  https://drive.google.com/file/d/0B0wSBJIV_UxNc0JfRXpmRE5Cb0U/view?usp=sharing
+Resolving drive.google.com... 74.125.228.232, 74.125.228.233, 74.125.228.238, ...
+Connecting to drive.google.com|74.125.228.232|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 7640 (7.5K) [text/html]
-Saving to: “view?usp=sharing”
+Length: unspecified [text/html]
+Saving to: “view?usp=sharing.2”
 
-     0K .......                                               100%  352M=0s
+     0K ........                                               34.3M=0s
 
-2015-10-10 07:01:27 (352 MB/s) - “view?usp=sharing” saved [7640/7640]
+2015-10-10 07:06:33 (34.3 MB/s) - “view?usp=sharing.2” saved [8870]
 
