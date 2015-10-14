@@ -1,0 +1,29 @@
+The query provided for this question returns the states that have the 
+most hospitals that rate most ferquently in the top 1 of any of the
+measured categories.
+The query first joins the hospitals, measures and efective_care tables.
+It then partitions the joined table on the measure ID and orders it by
+descending scores for each measure and selects the institution rank 
+as the top for the measure.
+Institutions' states and their ranks are then counted and the ones that 
+repeat most freqently as top 1 across all measures are selected as the best 
+stats in the nation.
+Note that this measure could be made proportional to the number of hospitals
+in the state or to the population count in the state. It is not in the results
+provided.
+
+Using the method above, the top 10 states (in descending order) in the 
+nation based on the data set in hand are listed below. The columns displayed are the state an the number of top 1 measures across all hospitals 
+in the state.
+
+CA	2454
+TX	1901
+FL	1890
+PA	1272
+NY	1189
+IL	1124
+OH	1075
+NC	854
+VA	824
+IN	768
+
