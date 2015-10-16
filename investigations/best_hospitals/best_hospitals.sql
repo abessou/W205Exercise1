@@ -1,3 +1,5 @@
+use exercise1;
+
 SELECT rs1.providerid, rs1.name, rs1.city, rs1.state, 
 COUNT(*) AS top_measures_count FROM
 (SELECT rs.name, rs.city, rs.state, rs.providerid FROM
