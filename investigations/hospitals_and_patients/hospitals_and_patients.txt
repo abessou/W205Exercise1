@@ -1,0 +1,38 @@
+The query provicded for this question returns the hospitals that score at the
+top of the overall_rating_achievement measure of the surveys.
+The measure was previoulsy transformed to a floating point value in the
+range [0-1].
+The query joins hospitals and surveys_results and orders the hospital by the 
+variable overall_rating_achiev in descending order.
+
+Based on this process, the listing of the top 50 hospitals and their overall
+rating achievement (last column) is provided below. Note that there are quite
+many hospitals that score at a score of 1.0.
+Taking all these 50 hospitals in consideration, and reviewing the hospitals
+identified in the best hospitals indicates low correlation.
+That may not be surprising as the measures computed in the data are very 
+different from patient satisfactions ones.
+
+
+HEART HOSPITAL OF LAFAYETTE	190263	LAFAYETTE	LA	1.0
+OUACHITA COMMUNITY HOSPITAL	190261	WEST MONROE	LA	1.0
+LAFAYETTE SURGICAL SPECIALTY HOSPITAL	190259	LAFAYETTE	LA	1.0
+GREEN CLINIC SURGICAL HOSPITAL	190257	RUSTON	LA	1.0
+ARKANSAS HEART HOSPITAL, LLC	040134	LITTLE ROCK	AR	1.0
+P & S SURGICAL HOSPITAL	190246	MONROE	LA	1.0
+VIA CHRISTI HOSPITAL WICHITA ST TERESA, INC	170200	WICHITA	KS	1.0
+SUMMIT SURGICAL, LLC	170198	HUTCHINSON	KS	1.0
+ORTHOPAEDIC HOSPITAL OF WISCONSIN	520194	GLENDALE	WI	1.0
+PHYSICIANS MEDICAL CENTER	190241	HOUMA	LA	1.0
+HOSPITAL FOR SPECIAL SURGERY	330270	NEW YORK	NY	1.0
+MANHATTAN SURGICAL HOSPITAL LLC	170190	MANHATTAN	KS	1.0
+KANSAS CITY ORTHOPAEDIC INSTITUTE	170188	LEAWOOD	KS	1.0
+SALINA SURGICAL HOSPITAL	170187	SALINA	KS	1.0
+KANSAS HEART HOSPITAL	170186	WICHITA	KS	1.0
+HAMILTON GENERAL HOSPITAL	450754	HAMILTON	TX	1.0
+ARIZONA SPINE AND JOINT HOSPITAL	030107	MESA	AZ	1.0
+SOUTH COUNTY HOSPITAL INC	410008	WAKEFIELD	RI	1.0
+ST LUKES HOSPITAL	260179	CHESTERFIELD	MO	1.0
+ARKANSAS SURGICAL HOSPITAL	040147	NO LITTLE ROCK	AR	1.0
+CITIZENS MEDICAL CENTER	190184	COLUMBIA	LA	1.0
+VIRGINIA HOSPITAL CENTER	490050	ARLINGTON	VA	1.0
