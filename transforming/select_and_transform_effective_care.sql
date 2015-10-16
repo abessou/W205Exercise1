@@ -1,4 +1,4 @@
-add FILE /home/ckekeh/src/W205/W205Exercise1/transforming/transform_effective_care;
+add FILE /home/ckekeh/src/W205/W205Exercise1/transforming/transform_effective_care.py;
 
 use exercise1;
 
