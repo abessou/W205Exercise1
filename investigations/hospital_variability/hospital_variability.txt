@@ -1,0 +1,31 @@
+This query computes the top 20 measures that display the most variability
+across all hospitals.
+It first joins the hospitals table with the effective_care and the mesures one
+and then groups the joined table by mesureid before getting the max and min 
+of the measure scores for each measureid. 
+It then takes the difference of the max and min with the meausureid and 
+measurename and orders the results by the difference in descending order.
+
+The results of the execution of this query in descending order of variability
+are listed in the table below.
+
+Emergency Department Volume	EDV	60001
+Median Time from ED Arrival to ED Departure for Admitted ED Patients	ED_1b	1141
+Admit Decision Time to ED Departure Time for Admitted Patients	ED_2b	754
+Median Time from ED Arrival to ED Departure for Discharged ED Patients	OP_18b	425
+Median Time to Transfer to Another Facility for Acute Coronary Intervention- Reporting Rate	OP_3b	410
+Median Time to Pain Management for Long Bone Fracture	OP_21	168
+Median Time from ED Arrival to Provider Contact for ED patients	OP_20	161
+Median Time to ECG	OP_5	115
+Statin Prescribed at Discharge	AMI_10	101
+Venous Thromboembolism Warfarin Therapy Discharge Instructions	VTE_5	101
+Venous Thromboembolism Patients Receiving Unfractionated Heparin with Dosages/Platelet Count Monitoring by Protocol or Nomogram	VTE_4	101
+Venous Thromboembolism Patients with Anticoagulation Overlap Therapy	VTE_3	101
+Intensive Care Unit Venous Thromboembolism Prophylaxis	VTE_2	101
+Venous Thromboembolism Prophylaxis	VTE_1	101
+Stroke Education	STK_8	101
+Discharged on Statin Medication	STK_6	101
+Antithrombotic Therapy By End of Hospital Day 2	STK_5	101
+Thrombolytic Therapy	STK_4	101
+Anticoagulation Therapy for Atrial Fibrillation/Flutter	STK_3	101
+Discharged on Antithrombotic Therapy	STK_2	101

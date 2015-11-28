@@ -1,0 +1,9 @@
+use exercise1;
+
+SELECT transformed_hospitals.name, transformed_hospitals.providerid,
+transformed_hospitals.city, transformed_hospitals.state,
+transformed_surveys_responses.overall_rating_achiev
+FROM transformed_hospitals, transformed_surveys_responses
+WHERE transformed_hospitals.providerid = 
+transformed_surveys_responses.providerid
+ORDER BY transformed_surveys_responses.overall_rating_achiev DESC limit 50;
